@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -7016,6 +7016,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="116.84" y1="83.82" x2="116.84" y2="106.68" width="0.1524" layer="94"/>
 <wire x1="116.84" y1="106.68" x2="73.66" y2="106.68" width="0.1524" layer="94"/>
 <text x="78.74" y="93.98" size="1.778" layer="94">CP2104 Board</text>
+<wire x1="182.88" y1="114.3" x2="182.88" y2="99.06" width="0.1524" layer="94"/>
+<wire x1="182.88" y1="88.9" x2="182.88" y2="83.82" width="0.1524" layer="94"/>
+<wire x1="182.88" y1="83.82" x2="210.82" y2="83.82" width="0.1524" layer="94"/>
+<text x="185.42" y="110.49" size="1.778" layer="94">ESP-12</text>
+<text x="184.15" y="87.63" size="1.778" layer="94">GPIO0 (with Pull-Up)
+RESET (with Pull-Up)
+RXD
+TXD
+GND</text>
+<wire x1="180.34" y1="99.06" x2="182.88" y2="99.06" width="0.1524" layer="94"/>
+<wire x1="182.88" y1="99.06" x2="182.88" y2="96.52" width="0.1524" layer="94"/>
+<wire x1="180.34" y1="96.52" x2="182.88" y2="96.52" width="0.1524" layer="94"/>
+<wire x1="182.88" y1="96.52" x2="182.88" y2="93.98" width="0.1524" layer="94"/>
+<wire x1="180.34" y1="93.98" x2="182.88" y2="93.98" width="0.1524" layer="94"/>
+<wire x1="182.88" y1="93.98" x2="182.88" y2="91.44" width="0.1524" layer="94"/>
+<wire x1="180.34" y1="91.44" x2="182.88" y2="91.44" width="0.1524" layer="94"/>
+<wire x1="182.88" y1="91.44" x2="182.88" y2="88.9" width="0.1524" layer="94"/>
+<wire x1="182.88" y1="88.9" x2="180.34" y2="88.9" width="0.1524" layer="94"/>
+<wire x1="182.88" y1="114.3" x2="210.82" y2="114.3" width="0.1524" layer="94"/>
+<wire x1="210.82" y1="114.3" x2="210.82" y2="83.82" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="134.62" y="116.84" smashed="yes">
@@ -7200,6 +7220,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
