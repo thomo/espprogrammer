@@ -17,7 +17,7 @@ Design is based on information from
 
 ## PCB
 
-The board can be ordered from OSH Park: <a href="https://oshpark.com/shared_projects/NfFR529p"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
+The board can be ordered from OSH Park: <a href="https://oshpark.com/shared_projects/ITWmR2rG"><img src="https://oshpark.com/packs/media/images/badge-5f4e3bf4bf68f72ff88bd92e0089e9cf.png" alt="Order from OSH Park"></img></a>
 
 <img src="./doc/pcb_top.png" width="250">
 <img src="./doc/pcb_bottom.png" width="250">
